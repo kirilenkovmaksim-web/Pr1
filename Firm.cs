@@ -8,7 +8,7 @@ namespace Pr1
 {
     internal class Firm
     {
-        string Name { get; set; }
+         string Name { get; set; }
         string Email { get; set; }
         int GotCreate { get; set; }
 
@@ -25,6 +25,6 @@ namespace Pr1
             Console.WriteLine($"Адрес: {Email}");
             Console.WriteLine($"Год основания: {GotCreate}");
         }
-
     }
 }
+
