@@ -5,8 +5,10 @@ internal class Program
 {
     static void Main()
     {
-        Firm f = new Firm("Apple", "ул. Ленина, 10", 2000);
+         Firm f = new Firm("Apple", "ул. Ленина, 10", 2000);
         f.PrintInfo();
     }
 
 }
+
+
